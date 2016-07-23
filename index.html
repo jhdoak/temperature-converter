@@ -2,9 +2,28 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
+  <title>Temperature Conversion</title>
+  <link rel='stylesheet' type='text/css' href='css/style.css'>
 </head>
+
 <body>
-  <script type='text/javascript' src='script.js'></script>
+  <div class='container'>
+    <div>
+      <p>Fahrenheit:</p>
+      <input type="text" id='user-input' name="fahrenheit">
+      <button type="button" id='convert-button'>Convert!</button>
+    </div>
+    <div class='output'>
+      <p>Celsius:</p>
+      <p id='celsius-conversion'></p>
+    </div>
+    <div class='output'>
+      <p>Kelvin:</p>
+      <p id='kelvin-conversion'></p>
+    </div>
+  </div>
+
+  <script src='scriptTest.js'></script>
 </body>
+
 </html>
